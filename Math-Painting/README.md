@@ -6,6 +6,7 @@ the geometrical shapes drawn in it.
 
 CLI image of the app given below:
 
+![CLI.png](CLI.png)
 
 
 # How to run the program
