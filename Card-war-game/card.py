@@ -15,8 +15,8 @@ class Card:
 
     def show(self):
         card_value = self._value
-        card_suit = self._suit
-        suit_symbol = self._suit.description.capitalize()
+        card_suit = self._suit.description.capitalize()
+        suit_symbol = self._suit.symbol
 
         if self.is_special():
             card_description = Card.SPECIAL_CARDS[card_value]
