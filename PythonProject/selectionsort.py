@@ -8,12 +8,12 @@ def smallestitem(arr):
     return smallest_index
 
 def selectionsort(arr):
-    new_arr = []
+    new_arr1 = []
     copied_arr = list(arr)
     for i in range(len(copied_arr)):
         smallest = smallestitem(copied_arr)
-        new_arr.append(copied_arr.pop(smallest))
-    return new_arr
+        new_arr1.append(copied_arr.pop(smallest))
+    return new_arr1
 
 
 print(selectionsort([5,4,3,2,1]))
